@@ -7,7 +7,7 @@ application = Flask(__name__)
 def hello():
     dateTimeObj = datetime.now()
     timestampStr = dateTimeObj.strftime("%d.%m.%Y %H:%M:%S")
-    return "Hello World! " + timestampStr
+    return "Hallo World! " + timestampStr
 
 if __name__ == "__main__":
     application.run()
